@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Patch boot images with Magisk and Kitsune
-        uses: cat-ling/magisk-patch-action@main
+        uses: 0xsharkboy/magisk-patch-action@main
         with:
           devices: d2x
           ota_link: https://raw.githubusercontent.com/Evolution-XYZ/OTA/udc/builds/
